@@ -1,1 +1,1 @@
-python -c "$PYCODE"
+python3 -c "$PYCODE"
