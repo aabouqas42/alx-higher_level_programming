@@ -2,9 +2,9 @@
 def uppercase(str):
     i = 0
     uperstr = ""
-    while i <= len(str):
+    while i < len(str):
         char = str[i]
-        if 'a' <= char <= 'z':
+        if 'a' >= char <= 'z':
             uperstr += chr(ord(char) - 32)
         i += 1
     print("{}".format(uperstr))
