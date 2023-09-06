@@ -7,4 +7,7 @@ def uppercase(str):
             uperstr += chr(ord(char) - 32)
         elif ord(char) == 32:
             uperstr += " "
-    print("{}".format(uperstr))
+        else:
+            uperstr += char
+    print(uperstr)
+uppercase("Holberton School")
