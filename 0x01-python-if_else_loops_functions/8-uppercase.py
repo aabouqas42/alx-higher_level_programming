@@ -10,4 +10,3 @@ def uppercase(str):
         else:
             uperstr += char
     print(uperstr)
-uppercase("Holberton School")
