@@ -4,4 +4,4 @@ def square_matrix_simple(matrix=[]):
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
             new_matrix[i][j] = matrix[i][j] * matrix[i][j]
-    return new_matrix 
+    return new_matrix
