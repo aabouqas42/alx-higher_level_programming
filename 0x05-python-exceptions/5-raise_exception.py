@@ -4,5 +4,3 @@ def raise_exception():
         result = 42 + "hello"
     except TypeError as e:
         raise e
-    except:
-        pass
