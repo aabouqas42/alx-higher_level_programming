@@ -5,7 +5,7 @@ int check_cycle(listint_t *list)
 	listint_t	*head;
 
 	head = list;
-	while (list->next)
+	while (list && list->next)
 	{
 		if (head == list->next)
 			return 1;
